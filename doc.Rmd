@@ -1,0 +1,26 @@
+---
+title: "Doc"
+author: "Juan Villalba"
+date: "January 18, 2018"
+output: html_document
+---
+
+## Annual deaths in road accidents for half the US states
+
+This shiny application is part of the "Developing Data Products"" course project in coursera (https://www.coursera.org/learn/data-products).
+
+This application uses the road dataset from the MASS library, which contains the  annual deaths in road accidents for half the US states, together with other variables related to each state.
+
+The main idea behind this app is to help to anlyze the correlation between the number of deaths and the different variables. To that end, the user can select them in the drop-down menu on the side bar and see the results on the differen tabs.
+
+## Scatterplot
+
+This scatterplot shows the number of deaths vs. the selected value in the drop down menu. Each point represent a different state.
+
+## Bar
+
+The number of deaths per state is shown in this bar diagram, together with the selectev value in the drop down-menu.
+
+## Map
+
+This tab contains a map of the US coloured by the number of deaths per state. It also shows the info related to the selected variable in the hover pop-up for each state.
